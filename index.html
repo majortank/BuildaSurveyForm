@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+    <h1 id="title">EventsOn Survey Form</h1>
+    <p id="description">Please help improve our platform by giving us feedback</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required class="inputs"></label>
+        <label id="email-label">Email: <input id="email" type="email" required placeholder="Enter your email" class="inputs"> </label>
+        <label id="number-label">Age: <input id="number" type="number" min="10" max="40" placeholder="Enter your age" required class="inputs"></label>
+        <label for="dropdown">What group of sports are you really interested in? </label>
+        <select id="dropdown">
+          <option>select one</option>
+          <option>Ball Sports</option>
+          <option>Athletics</option>
+          <option>Board Sports</option>
+          <option>Other</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <h3>Which area are you from?</h3>
+        <label ><input type="radio" value="Villiers" name="area" class="inline"/>Villiers</label>
+        <label><input type="radio" value="Tweeling" name="area" class="inline"/>Tweeling</label>
+        <label><input type="radio" value="Frunkford" name="area" class="inline"/>Frunkford</label>
+        <h3>Which sports activities would you like us to include in the future? <span>(Select all that apply)</span></h3>
+        <label><input type="checkbox" value="Acrobatics" class="inline"/>Acrobatics</label>
+        <label> <input type="checkbox" value="Aerobic Gymnastics" class="inline"/>Aerobic Gymnastics</label>
+        <label><input type="checkbox" value="Archery" class="inline"/>Archery</label>
+        <label><input type="checkbox" value="Arnis" class="inline"/>Arnis</label>
+        <label><input type="checkbox" value="Artistic Gymnastics" class="inline"/>Artistic Gymnastics</label>
+        <label><input type="checkbox" value="Artistic Swimming" class="inline"/>Artistic Swimming</label>
+        <label><input type="checkbox" value="Badminton" class="inline"/>Badminton</label>
+        <label><input type="checkbox" value="Baseball" class="inline"/>Baseball</label>
+        <label><input type="checkbox" value="Basketball" class="inline"/>Basketball</label>
+        <label><input type="checkbox" value="Baton Twirling" class="inline"/>Baton Twirling</label>
+      </fieldset>
+      <fieldset>
+        <label for="recommend">What do you recommend us to include in our events?
+          <textarea id="recommend" rows="4" class="inputs" cols="30" placeholder="It would be nice if the events went on throughout the year, so that we are always pumped..."></textarea>
+        </label>
+      </fieldset>
+      <input id='submit' type="submit" value="submit">
+    </form>
+  </body>
+</html>
