@@ -10,7 +10,7 @@ We welcome contributions in the form of bug reports, feature requests, documenta
 1. **Fork the repository:** Click the "Fork" button on the top right corner of the repository page and clone your forked repository to your local machine.
 
     ```bash
-    git clone https://github.com/your-username/EventsOn-Survey-Form.git
+    git clone https://github.com/majortank/EventsOn-Survey-Form.git
     ```
 
 2. **Create a branch:** Create a new branch for your contribution.
