@@ -30,7 +30,7 @@ Before you start, ensure you have the following:
 
 ## Getting Started
 1. Fork this repository by clicking the "Fork" button in the top right corner.
-2. Clone the forked repository to your local machine: `git clone https://github.com/your-username/EventsOn-Survey-Form.git`
+2. Clone the forked repository to your local machine: `git clone https://github.com/majortank/EventsOn-Survey-Form.git`
 3. Open the project in your preferred text editor.
 4. Explore the HTML and CSS files to understand the structure of the form.
 5. Make changes and experiment with the code to customize the form to your liking.
