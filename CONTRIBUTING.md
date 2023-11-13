@@ -44,7 +44,7 @@ We welcome contributions in the form of bug reports, feature requests, documenta
 
 ## Reporting Issues
 
-If you encounter any issues or have suggestions, please [open an issue](https://github.com/majortank/EventsOn-Survey-Form/issues) with a clear title and description.
+If you encounter any issues or have suggestions, please [open an issue](https://github.com/majortank/BuildaSurveyForm/issues) with a clear title and description.
 
 ## Thank You!
 
